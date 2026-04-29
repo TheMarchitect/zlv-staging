@@ -43,9 +43,10 @@ img { max-width: 100%; display: block; }
 /* === LAYOUT ============================================== */
 .container { max-width: 1600px; margin: 0 auto; padding: 0 1.5rem; }
 @media (min-width: 900px) { .container { padding: 0 6rem; } }
-.section     { padding: 8rem 0; }
-.section--lg { padding: 10rem 0; }
-.section--sm { padding: 5rem 0; }
+.section        { padding: 8rem 0; }
+.section--lg    { padding: 10rem 0; }
+.section--sm    { padding: 5rem 0; }
+.section--story { padding: 4rem 0; }
 .section--band     { background: var(--bg-band); }
 .section--band-alt { background: var(--bg-band-alt); }
 
@@ -168,6 +169,9 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-display); font-style: italic; font-weight: 400;
   font-size: clamp(1.5rem, 3vw, 3rem); line-height: 1.15; color: var(--fg-2);
 }
+.h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.05; letter-spacing: -0.02em; color: var(--fg-1); margin: 0 0 2rem; }
+.h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.5rem, 3vw, 2.25rem); line-height: 1.2; color: var(--fg-1); margin: 0 0 2.25rem; }
+.h3 { font-family: var(--font-display); font-weight: 500; font-size: 1.375rem; line-height: 1.2; color: var(--fg-1); margin: 0 0 1.25rem; }
 .lede { font-family: var(--font-body); font-size: 1.125rem; line-height: 1.9; color: var(--fg-2); max-width: 680px; }
 .body-lg { font-family: var(--font-body); font-size: 1.125rem; line-height: 1.85; color: var(--fg-2); margin-bottom: 1.5rem; }
 .body-lg:last-child { margin-bottom: 0; }
