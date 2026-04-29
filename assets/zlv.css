@@ -169,6 +169,10 @@ img { max-width: 100%; display: block; }
   font-size: clamp(1.5rem, 3vw, 3rem); line-height: 1.15; color: var(--fg-2);
 }
 .lede { font-family: var(--font-body); font-size: 1.125rem; line-height: 1.9; color: var(--fg-2); max-width: 680px; }
+.body-lg { font-family: var(--font-body); font-size: 1.125rem; line-height: 1.85; color: var(--fg-2); margin-bottom: 1.5rem; }
+.body-lg:last-child { margin-bottom: 0; }
+.body { font-family: var(--font-body); font-size: 1rem; line-height: 1.85; color: var(--fg-2); margin-bottom: 1.25rem; }
+.body:last-child { margin-bottom: 0; }
 .body-prose p {
   font-family: var(--font-body); font-size: 1.0625rem;
   line-height: 1.9; color: var(--fg-2); margin-bottom: 1.5rem; max-width: 640px;
