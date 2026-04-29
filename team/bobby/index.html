@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bobby &#x2014; Team | Zero Limits Ventures</title>
+  <meta name="description" content="Bobby brings specialized expertise to every ZLV engagement. Full profile coming soon.">
+  <link rel="stylesheet" href="/assets/zlv.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner container">
+    <a href="/" class="nav__logo">
+      <div class="nav__logo-mark">ZLV</div>
+      <span class="nav__logo-wordmark">Zero Limits Ventures</span>
+    </a>
+    <div class="nav__links">
+      <a href="/26-factor-assessment/" class="nav__link">The Assessment</a>
+      <a href="/our-process/" class="nav__link">Our Process</a>
+      <a href="/results/" class="nav__link">Results</a>
+      <a href="/about/" class="nav__link">About</a>
+      <a href="/for-buyers/" class="nav__link">For Buyers</a>
+      <a href="/assessment/" class="nav__link btn btn--ghost" style="padding:0.5rem 1.25rem;">Take the Assessment</a>
+    </div>
+    <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav__mobile" role="dialog" aria-label="Navigation">
+  <button class="nav__mobile-close" aria-label="Close menu">&#x2715;</button>
+  <a href="/26-factor-assessment/" class="nav__mobile-link">The Assessment</a>
+  <a href="/our-process/" class="nav__mobile-link">Our Process</a>
+  <a href="/results/" class="nav__mobile-link">Results</a>
+  <a href="/about/" class="nav__mobile-link">About</a>
+  <a href="/for-buyers/" class="nav__mobile-link">For Buyers</a>
+  <a href="/assessment/" class="nav__mobile-link">Take the Assessment</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="case-hero">
+    <div class="container">
+      <a href="/about/" class="text-link" style="display:inline-block; margin-bottom:2rem; font-size:0.75rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--fg-3);">&#x2190; Back to the team</a>
+      <span class="eyebrow">The Team</span>
+      <h1 class="h1" style="max-width:780px;">Bobby</h1>
+      <p class="body-lg" style="max-width:640px; margin-top:1.5rem; opacity:0.6;">Full profile coming soon. Bobby brings specialized expertise that is a critical component of every ZLV engagement.</p>
+    </div>
+  </section>
+
+  <!-- PORTRAIT -->
+  <section class="section" style="padding-top:2rem;">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-grid__left">
+          <div class="portrait-wrap">
+            <div class="portrait" style="height:520px;">
+              <div class="img-placeholder">BOBBY &#x2014; PORTRAIT</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-grid__right">
+          <span class="eyebrow">Coming Soon</span>
+          <h2 class="h-sub">Profile in progress.</h2>
+          <p class="body">Bobby&#x2019;s full profile is being prepared. In the meantime, you can learn about the full ZLV team and how each member contributes to the exit preparation process.</p>
+          <p class="body" style="margin-top:2rem;">
+            <a href="/about/" class="btn btn--ghost">&#x2190; Meet the full team</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--band">
+    <div class="container">
+      <div class="cta-cards">
+        <div class="cta-card">
+          <div class="cta-card__step cta-card__step--solid">Step 01</div>
+          <h3 class="cta-card__title">Take the Free 26-Factor Assessment</h3>
+          <p class="cta-card__body">Score your business across every driver that buyers use to price an acquisition. Takes 15&#x2013;30 minutes. Free.</p>
+          <a href="/assessment/" class="btn btn--primary">Take the Free Assessment &#x2192;</a>
+        </div>
+        <div class="cta-card">
+          <div class="cta-card__step cta-card__step--ghost">Step 02</div>
+          <h3 class="cta-card__title">Apply for a Strategy Session</h3>
+          <p class="cta-card__body">A 60-minute working session &#x2014; not a sales call. Bring your results and we&#x2019;ll walk through the highest-leverage opportunities in your situation.</p>
+          <a href="/apply/" class="btn btn--ghost">Apply Now &#x2192;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__logo">
+      <div class="nav__logo-mark">ZLV</div>
+      <span class="nav__logo-wordmark">Zero Limits Ventures</span>
+    </div>
+    <nav class="footer__links">
+      <a href="/26-factor-assessment/" class="footer__link">The Assessment</a>
+      <a href="/our-process/" class="footer__link">Our Process</a>
+      <a href="/results/" class="footer__link">Results</a>
+      <a href="/about/" class="footer__link">About</a>
+      <a href="/philosophy/" class="footer__link">Philosophy</a>
+      <a href="/for-buyers/" class="footer__link">For Buyers</a>
+      <a href="/faq/" class="footer__link">FAQ</a>
+      <a href="/apply/" class="footer__link">Apply</a>
+    </nav>
+    <p class="footer__copy">&#x00A9; 2026 Zero Limits Ventures. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+const hamburger = document.querySelector('.nav__hamburger');
+const mobile = document.querySelector('.nav__mobile');
+const close = document.querySelector('.nav__mobile-close');
+hamburger?.addEventListener('click', () => { mobile.classList.add('is-open'); hamburger.setAttribute('aria-expanded','true'); });
+close?.addEventListener('click', () => { mobile.classList.remove('is-open'); hamburger.setAttribute('aria-expanded','false'); });
+mobile?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { mobile.classList.remove('is-open'); hamburger.setAttribute('aria-expanded','false'); }));
+</script>
+</body>
+</html>
