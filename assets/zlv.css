@@ -345,6 +345,7 @@ img { max-width: 100%; display: block; }
 .faq-item { border-bottom: 1px solid var(--hairline); }
 .faq-item:last-child { border-bottom: none; }
 .faq-item__q {
+  width: 100%; background: none; border: none; text-align: left;
   display: flex; justify-content: space-between; align-items: center;
   padding: 1.875rem 2rem; cursor: pointer; gap: 2rem;
 }
@@ -398,5 +399,4 @@ img { max-width: 100%; display: block; }
 .case-metric { background: var(--bg-band); padding: 2rem; text-align: center; }
 .case-metric__num { font-family: var(--font-display); font-weight: 700; font-size: 2.25rem; color: var(--gold); line-height: 1; margin-bottom: 0.5rem; }
 .case-metric__label { font-family: var(--font-body); font-size: 0.625rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--fg-3); font-weight: 500; }
-
 /* NAV JS — tiny toggle script included at bottom of each page */
