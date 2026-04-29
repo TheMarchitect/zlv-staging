@@ -221,6 +221,7 @@ img { max-width: 100%; display: block; }
 .h-grid { display: grid; grid-template-columns: 1fr; gap: 1px; background: var(--hairline); border: 1px solid var(--hairline); }
 @media (min-width: 600px) { .h-grid--2 { grid-template-columns: repeat(2,1fr); } }
 @media (min-width: 900px) { .h-grid { grid-template-columns: repeat(3,1fr); } }
+@media (min-width: 900px) { .h-grid--4 { grid-template-columns: repeat(4,1fr); } }
 .h-grid__cell { background: var(--bg-band-alt); padding: 3rem; }
 .h-grid__num { font-family: var(--font-body); font-weight: 900; font-size: 2.25rem; color: rgba(255,255,255,0.12); display: block; margin-bottom: 1.5rem; }
 .h-grid__title { font-family: var(--font-display); font-weight: 500; font-size: 1.375rem; color: var(--fg-1); margin-bottom: 1rem; }
